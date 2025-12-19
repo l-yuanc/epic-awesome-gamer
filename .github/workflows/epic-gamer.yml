@@ -52,7 +52,7 @@ jobs:
       - name: Clone epic-awesome-gamer repository
         run: |
           echo "Cloning epic-awesome-gamer source code..."
-          git clone https://github.com/QIN2DIM/epic-awesome-gamer.git epic-gamer-src
+          git clone https://github.com/l-yuanc/epic-awesome-gamer.git epic-gamer-src
           echo "✅ Source code cloned successfully"
 
       - name: Install uv
