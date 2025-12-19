@@ -67,7 +67,7 @@ async def execute_browser_tasks(headless: bool = True):
     ) as browser:
         # Initialize or reuse existing browser page
         page = browser.pages[0] if browser.pages else await browser.new_page()
-        logger.debug("Browser initialized successfully")
+        logger.debug("Browser initialized successfully,aaa")
 
         # Handle Epic Games authentication
         logger.debug("Initiating Epic Games authentication")
